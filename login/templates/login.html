@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="../static/login.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <h1>Sign in</h1>
+        <form action="/submit" method="post" class="sign_in_form">
+          <div class="sigin">
+            <input
+              type="text"
+              name="username"
+              placeholder="Email, phone, or Skype"
+              id="username"
+              required
+            />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter your password"
+              required
+            />
+          </div>
+          <div>
+            <p>No account?</p>
+            <a href="/register">Create one!</a>
+          </div>
+          <div class="signin">
+            <!-- <a href="#">Sign in with Windows Hello or a security key</a> -->
+            <img
+              src="/html,css,js/projects/microsoft/sigin page/icons8-question-32.png"
+              height="20px"
+              width="20px"
+              alt="Help"
+            />
+          </div>
+          <div class="next">
+            <button type="submit" class="submit" value="submit">Next</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
