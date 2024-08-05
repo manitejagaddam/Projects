@@ -1,0 +1,97 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main styles */
+main {
+  padding: 2rem 0;
+}
+
+.hero {
+  background: #f4f4f4;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-bottom: 1rem;
+}
+
+.content {
+  padding: 2rem 0;
+}
+
+.content .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.content article {
+  flex: 1;
+  margin: 1rem;
+  padding: 1rem;
+  background: #f4f4f4;
+  border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer .container {
+  width: 80%;
+  margin: 0 auto;
+}
