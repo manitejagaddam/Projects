@@ -1,1 +1,3 @@
-This is the repository contains all the web dev projects made by myself
+
+This is the repository contains all the projects made by myself
+
