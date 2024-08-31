@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Form with Default Values</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Medical Form with Default Values</h2>
+    <form action="/predict" method="post">
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input type="number" class="form-control" id="floatingInputValue" name="Pregnancies" placeholder="Number of Pregnancies" value="0">
+                    <label for="floatingInputValue">Pregnancies</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input type="number" class="form-control" id="floatingInputValue" name="Glucose" placeholder="Glucose Level" value="100">
+                    <label for="floatingInputValue">Glucose</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input type="number" class="form-control" id="floatingInputValue" name="BloodPressure" placeholder="Blood Pressure" value="80">
+                    <label for="floatingInputValue">Blood Pressure</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input type="number" class="form-control" id="floatingInputValue" name="SkinThickness" placeholder="Skin Thickness" value="20">
+                    <label for="floatingInputValue">Skin Thickness</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input type="number" class="form-control" id="floatingInputValue" name="Insulin" placeholder="Insulin Level" value="30">
+                    <label for="floatingInputValue">Insulin</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input type="number" class="form-control" id="floatingInputValue" name="BMI" placeholder="BMI" value="25.0">
+                    <label for="floatingInputValue">BMI</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input type="number" step="any" class="form-control" id="floatingInputValue" name="DiabetesPedigreeFunction" placeholder="Diabetes Pedigree Function" value="0.5">
+                    <label for="floatingInputValue">Diabetes Pedigree Function</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input type="number" class="form-control" id="floatingInputValue" name="Age" placeholder="Age" value="30">
+                    <label for="floatingInputValue">Age</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select class="form-select" id="floatingInputValue" name="Outcome">
+                        <option value="0" selected>0</option>
+                        <option value="1">1</option>
+                    </select>
+                    <label for="floatingInputValue">Outcome</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
