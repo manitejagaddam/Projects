@@ -10,6 +10,7 @@ with open('loan_approval_pipeline.pkl', 'rb') as file:
 
 @app.route('/')
 def home():
+    return render_template("index.html")
 
 @app.route('/predict', methods=['POST'])    
 def prediction():
