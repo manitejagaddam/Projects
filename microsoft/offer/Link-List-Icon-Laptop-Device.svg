@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1a1a1a;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Surface">
+    <g id="Link-List-Icon-Laptop-Device">
+      <g id="Bounding_Box" data-name="Bounding Box">
+        <rect class="cls-2" width="120" height="120"/>
+      </g>
+      <g>
+        <path class="cls-1" d="m93.26,85.29H26.75c-3.42,0-6.2-2.9-6.2-6.46v-42.93c0-3.56,2.78-6.46,6.2-6.46h66.51c3.42,0,6.2,2.9,6.2,6.46v42.93c0,3.56-2.78,6.46-6.2,6.46ZM26.75,33.45c-1.21,0-2.2,1.1-2.2,2.46v42.93c0,1.35.99,2.46,2.2,2.46h66.51c1.21,0,2.2-1.1,2.2-2.46v-42.93c0-1.35-.99-2.46-2.2-2.46H26.75Z"/>
+        <path class="cls-1" d="m108,95.75H12c-1.1,0-2-.9-2-2s.9-2,2-2h96c1.1,0,2,.9,2,2s-.9,2-2,2Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
